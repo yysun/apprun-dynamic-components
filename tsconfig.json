@@ -5,6 +5,7 @@
     "reactNamespace": "app",
     "lib": ["dom", "es2015", "es5"],
     "module": "esnext",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "sourceMap": true
   }
 }
