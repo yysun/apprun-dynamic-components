@@ -14,10 +14,10 @@ app.on('//', route => {
 
 app.on('#about', async () => {
   const module = await import('./about');
-  new module.default().start(element);
+  new module.default().mount(element);
 });
 
 app.on('#contact', async () => {
   const module = await import('./contact');
-  new module.default().start(element);
+  new module.default().mount(element);
 })
